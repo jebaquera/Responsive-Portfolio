@@ -1,0 +1,288 @@
+body {
+    background: rgb(222, 231, 242);
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+
+/* Start of Page Navigation area styles */
+h1 {
+    font-size: 30px;    
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+    float: left;
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited {
+    color: cadetblue;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+    background-color: bisque;
+}
+
+a:active {
+    color: darkolivegreen;
+}
+
+.mainHeader {
+    background-color: white;
+    height: 90px;
+    width: 100%;
+    clear: both;
+    top: 0;
+    left: 0;
+}
+
+.pageNav {
+    background-color: white;
+    height: 90px;
+    width: 100%;
+    clear: both;
+    top: 0;
+    left: 0;
+    margin-left: 100px;
+    width: 1020px;
+}
+
+.headerName {
+    width: 250px;
+    height: 70px;
+    background-color: #4aaaa5;
+    color: antiquewhite;
+    padding: 10px 10px 10px 30px;
+    float: left;
+    margin: auto;
+    text-align: center;
+}
+
+.navText {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    padding-top: 20px;
+    float: right;
+/*    color: aliceblue; */
+}
+
+.headerRule {
+    background-color: #777777;
+    height: 1px;
+    width: 100%; 
+}
+
+/* End of Page Navigation area styles */
+
+
+/* Start of Main Text area styles */
+h2 {
+    font-size: 27px;
+    line-height: 24px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    color: #4aaaa5; 
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+img {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 13px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: #777777;   
+}
+
+.pageWrapper {
+    border: 1px solid #777777;
+    background-color: white;
+    width: 960px;
+    padding: 5px 30px 40px 30px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    clear: both;
+}
+
+/* Contact page styles */
+.submit {
+    background-color: #4aaaa5;
+    width: 90px;
+    height: 30px;
+    color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Portfolio page styles */
+.hangman {
+    width: 270px;
+    height: 200px;
+    background-color: #777777;
+    margin-top: 30px;
+}
+
+.hangmanCaption {
+    width: 270px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 20px;
+    float: left;
+    margin-top: 130px;
+}
+
+
+.rpgGame {
+    width: 270px;
+    height: 200px;
+    background-color: #777777;
+    margin-top: 30px;
+}
+
+.rpgGameCaption {
+    width: 270px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 20px;
+    float: left;
+    margin-top: 130px;
+}
+
+.triviaGame {
+    width: 270px;
+    height: 200px;
+    background-color: #777777;
+    margin-top: 50px;
+}
+
+.triviaGameCaption {
+    width: 270px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 20px;
+    float: left;
+    margin-top: 130px;
+}
+
+
+.rutgersInfo {
+    width: 270px;
+    height: 200px;
+    background-color: #777777;
+    margin-top: 30px;
+}
+
+.rutgersInfoCaption {
+    width: 270px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 20px;
+    float: left;
+    margin-top: 130px;
+}
+
+
+.rockPaper {
+    width: 270px;
+    height: 200px;
+    background-color: #777777;
+    margin-top: 50px;
+}
+
+.rockPaperCaption {
+    width: 270px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 20px;
+    float: left;
+    margin-top: 130px;
+}
+
+/* End of Main Text area styles */
+
+
+/* Start of Footer styles */
+.footer {
+    background-color: #666666;
+    height: 60px;
+    width: 100%;
+}
+
+.footerRule {
+    background-color: #4aaaa5;
+    height: 8px;
+    width: 100%;
+    margin-top: 60px; 
+}
+
+.footerText {
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding-left: 580px;
+    padding-top: 30px;
+    color: #eee;   
+}
+/* End of Footer styles */
+
+@media only screen and (max-width: 980px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+
+@media only screen and (max-width: 768px) {
+    body {
+      background-color:darkseagreen;
+    }
+  }
+
+
+  @media only screen and (max-width: 640px) {
+    body {
+      background-color: burlywood;
+    }
+  }
